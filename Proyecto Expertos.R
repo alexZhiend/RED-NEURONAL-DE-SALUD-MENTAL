@@ -14,7 +14,7 @@ summary(mental1)
 head(mental1)
 mental1
 #YA QUE EL DATASET ESTA DEFINIDO CON VARIABLES CUALITATIVAS, TRANSFORMAMOS ESTAS VARIABLES
-#A UNA VARIABLES CUATITATIVAS CON LA FUNCION SIGUIENTE
+#A UNA VARIABLES CUANTITATIVAS CON LA FUNCION SIGUIENTE
 ment=model.matrix(~treatment + Age + Gender + self_employed + family_history 
                   + work_interfere + remote_work + tech_company + obs_consequence,d=mental1)
 
